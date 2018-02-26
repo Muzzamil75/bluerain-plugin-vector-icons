@@ -1,5 +1,5 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import { FontAwesome } from '@expo/vector-icons';
+const FontAwesome = require('@expo/vector-icons');
 /**
  * @property {string} pluginName "VectorFontAwesome"
  * @property {string} slug "vector-fontawesome"

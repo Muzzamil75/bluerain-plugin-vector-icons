@@ -1,5 +1,6 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import { MaterialIcons } from '@expo/vector-icons';
+const MaterialIcons = require('@expo/vector-icons');
+
 /**
  * @property {string} pluginName "VectorMaterialIcons"
  * @property {string} slug "vector-materialicons"
