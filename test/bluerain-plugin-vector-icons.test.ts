@@ -1,14 +1,15 @@
-import DummyPlugin from '../src/bluerain-plugin-vector-icons';
+import { VectorFontAwesome, VectorIonicons, VectorMaterialIcons } from '../src/index';
+import BR, { BlueRain, Plugin } from '@blueeast/bluerain-os';
+import ReactXPPlugin from './Platform';
 
-/**
- * Dummy test
- */
-describe('Dummy test', () => {
-	it('works if true is truthy', () => {
-		expect(true).toBeTruthy();
-	});
-
-	it('DummyPlugin is instantiable', () => {
-		expect(new DummyPlugin()).toBeInstanceOf(DummyPlugin);
+beforeAll(() => {
+	document.body.innerHTML = '<div class="app-container"></div>';
+});
+describe('ReactRouter Plugin test', () => {
+	it('It should register Plugin', () => {
+		BR.boot({
+			platform: [ReactXPPlugin],
+			plugins: [VectorFontAwesome, VectorIonicons, VectorMaterialIcons]
+		});
 	});
 });
