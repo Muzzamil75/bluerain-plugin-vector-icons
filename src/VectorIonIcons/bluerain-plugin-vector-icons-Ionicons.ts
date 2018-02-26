@@ -1,5 +1,4 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-// tslint:disable-next-line:no-var-requires
 const Ionicons = require('@expo/vector-icons');
 
 /**
