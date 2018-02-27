@@ -1,5 +1,6 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import FontAwesome from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/dist/FontAwesome';
+
 /**
  * @property {string} pluginName "VectorFontAwesome"
  * @property {string} slug "vector-fontawesome"
@@ -9,7 +10,7 @@ class VectorFontAwesome extends Plugin {
 	static slug = 'vector-fontawesome';
 
 	static components = {
-		Icon: FontAwesome
+		Icon: Icon
 	};
 }
 export default VectorFontAwesome;

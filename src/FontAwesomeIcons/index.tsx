@@ -1,5 +1,5 @@
 
-import VectorFontAwesome from  './bluerain-plugin-vector-iconsFontAwesome';
+import VectorFontAwesome from  './bluerain-plugin-vector-iconsFontAwesome-web';
 export {VectorFontAwesome};
 
 

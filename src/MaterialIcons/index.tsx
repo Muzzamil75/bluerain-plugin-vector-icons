@@ -1,5 +1,5 @@
 
-import VectorMaterialIcons from  './bluerain-plugin-vector-icons-MaterialIcons';
+import VectorMaterialIcons from  './bluerain-plugin-vector-icon-MaterialIcon-web';
 export {VectorMaterialIcons};
 
 

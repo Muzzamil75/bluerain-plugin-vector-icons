@@ -1,6 +1,6 @@
 
 import {VectorIonicons} from './VectorIonIcons/';
-import {VectorMaterialIcons} from  './MaterialIcons/index';
-import {VectorFontAwesome} from  './FontAwesomeIcons/index';
+import {VectorMaterialIcons} from  './MaterialIcons/';
+import {VectorFontAwesome} from  './FontAwesomeIcons/';
 export {VectorIonicons,VectorMaterialIcons,VectorFontAwesome};
 

@@ -1,4 +1,4 @@
-import VectorIonicons from './bluerain-plugin-vector-icons-Ionicons';
+import VectorIonicons from './bluerain-plugin-vector-Ionicons-web';
 export { VectorIonicons };
 
 // import Icon from 'react-native-vector-icons/dist/Ionicons';
