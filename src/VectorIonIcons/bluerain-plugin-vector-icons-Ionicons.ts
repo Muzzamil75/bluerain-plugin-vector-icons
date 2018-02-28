@@ -1,7 +1,5 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
 import Ionicons from '@expo/vector-icons';
-// tslint:disable-next-line:no-submodule-imports
-import Icon from 'react-native-vector-icons/Ionicons';
 
 /**
  * @property {string} pluginName "VectorIonicons"

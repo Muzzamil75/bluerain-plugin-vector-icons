@@ -3,6 +3,7 @@
     "@blueeast/tslint-config-blueeast/react"
   ],
   "rules":{
-    "no-var-requires": false
+    "no-var-requires": false,
+    "no-submodule-imports":false
   }
 }

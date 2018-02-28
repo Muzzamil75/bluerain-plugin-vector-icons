@@ -5,7 +5,7 @@ import storiesOf from  '../storiesOf/index';
 import {bluerainStory} from   '../../storybook/bluerain';
 storiesOf('VectorIcons', module)
 
-.add('MapComponent', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
+.add('vectorComponent', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 	return (
     	<BR.Components.Icon   name="md-checkmark-circle" size={32} color="green"  />
 	);

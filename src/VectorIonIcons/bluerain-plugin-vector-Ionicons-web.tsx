@@ -1,6 +1,10 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
- // tslint:disable-next-line:no-submodule-imports
  import Icon from 'react-native-vector-icons/Ionicons';
+// import glyphMap from './glyphmaps/Ionicons.json';
+
+import { createIconSet } from 'react-native-vector-icons';
+const glyphMap = { 'icon-name': 1234, test: '∆' };
+const iconSet = createIconSet(glyphMap, 'Ionicons', 'Ionicons.ttf');
 
 /**
  * @property {string} pluginName "VectorIonicons"
@@ -11,7 +15,7 @@ class VectorIonicons extends Plugin {
 	static slug = 'vector-ionicons';
 
 	static components = {
-		Icon: Icon
+		Icon: iconSet
 	};
 }
 export default VectorIonicons;
