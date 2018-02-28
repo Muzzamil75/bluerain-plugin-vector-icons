@@ -1,5 +1,6 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import Icon from 'react-native-vector-icons/dist/FontAwesome';
+// tslint:disable-next-line:no-submodule-imports
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 /**
  * @property {string} pluginName "VectorFontAwesome"
@@ -10,7 +11,7 @@ class VectorFontAwesome extends Plugin {
 	static slug = 'vector-fontawesome';
 
 	static components = {
-		Icon: Icon
+	 	Icon: Icon
 	};
 }
 export default VectorFontAwesome;

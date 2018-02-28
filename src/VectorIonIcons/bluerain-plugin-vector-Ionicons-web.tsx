@@ -1,5 +1,6 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import Ionicons from 'react-native-vector-icons/dist/MaterialIcons';
+ // tslint:disable-next-line:no-submodule-imports
+ import Icon from 'react-native-vector-icons/Ionicons';
 
 /**
  * @property {string} pluginName "VectorIonicons"
@@ -10,7 +11,7 @@ class VectorIonicons extends Plugin {
 	static slug = 'vector-ionicons';
 
 	static components = {
-		Icon: Ionicons
+		Icon: Icon
 	};
 }
 export default VectorIonicons;
