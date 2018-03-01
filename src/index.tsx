@@ -1,6 +1,6 @@
 
-import {VectorIonicons} from './VectorIonIcons/index.ios';
-import {VectorMaterialIcons} from  './MaterialIcons/index.ios';
-import {VectorFontAwesome} from  './FontAwesomeIcons/index.ios';
+import VectorIonicons from './VectorIonIcons/bluerain-plugin-vector-icons-Ionicons';
+import VectorMaterialIcons from  './MaterialIcons/bluerain-plugin-vector-icons-MaterialIcons';
+import VectorFontAwesome from  './FontAwesomeIcons/bluerain-plugin-vector-iconsFontAwesome';
 export {VectorIonicons,VectorMaterialIcons,VectorFontAwesome};
 
