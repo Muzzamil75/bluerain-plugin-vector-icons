@@ -1,5 +1,5 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-const Ionicons = require('@expo/vector-icons');
+import Ionicons from '@expo/vector-icons';
 
 /**
  * @property {string} pluginName "VectorIonicons"
