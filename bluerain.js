@@ -8,9 +8,8 @@ module.exports = {
 		// All bluerain apps will also be added in this array
 	],
 	plugins:[
-		require('./dist/src/VectorIonIcons/index'),
+		require('./dist/src/FontAwesomeIcons/index'),
 		// All bluerain plugins will be added here
-		 require('./dist/src/index'),
 	],
 	config: {
 		// Configurations for bluerain-os will be added here
