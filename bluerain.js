@@ -8,7 +8,7 @@ module.exports = {
 		// All bluerain apps will also be added in this array
 	],
 	plugins:[
-		require('./dist/src/FontAwesomeIcons/index'),
+		require('./src/FontAwesomeIcons/index.web'),
 		// All bluerain plugins will be added here
 	],
 	config: {

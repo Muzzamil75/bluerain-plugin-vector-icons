@@ -1,5 +1,5 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import Icon from 'react-native-vector-icons/dist/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome';
 /**
  * @property {string} pluginName "VectorFontAwesome"
  * @property {string} slug "vector-fontawesome"

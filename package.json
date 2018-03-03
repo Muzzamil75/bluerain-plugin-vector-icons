@@ -1,5 +1,5 @@
 {
-  "name": "bluerain-plugin-vector-icons",
+  "name": "@blueeast/bluerain-plugin-vector-icons",
   "version": "0.0.0",
   "description": "",
   "keywords": [],
@@ -19,7 +19,6 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "package-build": "./node_modules/.bin/webpack-dev-server -d --config ./web/webpack.config.js --inline --hot --colors",
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
     "build": "tsc && babel -D compiled --out-dir dist  && rimraf compiled",
@@ -95,7 +94,7 @@
   },
   "devDependencies": {
     "@blueeast/bluerain-cli": "^1.2.1",
-    "@blueeast/bluerain-platform-reactxp": "^3.0.3",
+    "@blueeast/bluerain-platform-reactxp": "^1.1.8",
     "@blueeast/tslint-config-blueeast": "^0.4.0",
     "@storybook/addon-actions": "^3.3.12",
     "@storybook/addon-graphql": "^3.2.0",
@@ -105,12 +104,14 @@
     "@storybook/addon-storyshots": "^3.2.13",
     "@storybook/addons": "^3.2.13",
     "@storybook/react": "^3.3.12",
-    "@types/expo__vector-icons": "6.2.1",
+    "@storybook/react-native": "^3.3.12",
     "@types/jest": "^21.1.0",
-    "@types/react-native-vector-icons": "^4.4.3",
+    "@types/node": "^8.0.0",
+    "@types/react-native": "^0.51.9",
     "@types/storybook__react": "^3.0.6",
     "awesome-typescript-loader": "^3.4.1",
-    "babel-loader": "^7.1.3",
+    "babel-plugin-react-native-web": "^0.5.1",
+    "bootstrap-loader": "^2.0.0-beta.16",
     "bundlesize": "^0.15.2",
     "codecov": "^2.3.1",
     "colors": "^1.1.2",
@@ -139,14 +140,12 @@
     "storybook-addon-intl": "^2.1.2",
     "storybook-addon-rtl": "^0.1.1",
     "ts-jest": "^22.0.0",
+    "ts-node": "^4.0.1",
     "tslint": "^5.4.3",
     "typedoc": "^0.9.0",
     "typescript": "^2.3.4",
-    "url-loader": "^0.6.2",
     "validate-commit-msg": "^2.12.2",
-    "webpack": "^4.0.1",
-    "webpack-cli": "^2.0.9",
-    "webpack-dev-server": "^3.1.0"
+    "react-native-web": "^0.5.1"
   },
   "dependencies": {
     "@blueeast/bluerain-os": "3.5.3",

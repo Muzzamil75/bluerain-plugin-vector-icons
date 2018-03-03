@@ -1,5 +1,5 @@
 import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
-import Icon  from  'react-native-vector-icons/dist/FontAwesome';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 /**
  * @property {string} pluginName "VectorMaterialIcons"
@@ -10,7 +10,7 @@ class VectorMaterialIcons extends Plugin {
 	static slug = 'vector-materialicons';
 
 	static components = {
- 		Icon: Icon
+		Icon: Icon
 	};
 }
 export default VectorMaterialIcons;
