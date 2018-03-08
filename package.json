@@ -88,10 +88,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 90,
-        "functions": 95,
-        "lines": 95,
-        "statements": 95
+        "branches": 50,
+        "functions": 100,
+        "lines": 91,
+        "statements": 92
       }
     },
     "collectCoverage": true,
@@ -99,7 +99,7 @@
   },
   "devDependencies": {
     "@blueeast/bluerain-cli": "^1.2.1",
-    "@blueeast/bluerain-platform-reactxp": "^1.1.8",
+    "@blueeast/bluerain-platform-reactxp": "^3.0.3",
     "@blueeast/tslint-config-blueeast": "^0.4.0",
     "@storybook/addon-actions": "^3.3.12",
     "@storybook/addon-graphql": "^3.2.0",
