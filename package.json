@@ -1,6 +1,6 @@
 {
-  "name": "bluerain-plugin-vector-icons",
-  "version": "0.0.0",
+  "name": "@blueeast/bluerain-plugin-vector-icons",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "main": "dist/bluerain-plugin-vector-icons.umd.js",
@@ -12,7 +12,12 @@
   "author": "BlueEast Team <code@blueeast.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/BlueEastCode/bluerain-plugin-vector-icons.git"
+  },
+  "release": {
+    "branch": "master",
+    "dryRun": false,
+    "debug": true
   },
   "license": "MIT",
   "engines": {
@@ -83,10 +88,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 90,
-        "functions": 95,
-        "lines": 95,
-        "statements": 95
+        "branches": 50,
+        "functions": 100,
+        "lines": 91,
+        "statements": 92
       }
     },
     "collectCoverage": true,
@@ -94,7 +99,7 @@
   },
   "devDependencies": {
     "@blueeast/bluerain-cli": "^1.2.1",
-    "@blueeast/bluerain-platform-reactxp": "^1.1.8",
+    "@blueeast/bluerain-platform-reactxp": "^3.0.3",
     "@blueeast/tslint-config-blueeast": "^0.4.0",
     "@storybook/addon-actions": "^3.3.12",
     "@storybook/addon-graphql": "^3.2.0",
@@ -116,6 +121,7 @@
     "coveralls": "^3.0.0",
     "cross-env": "^5.0.1",
     "cz-conventional-changelog": "^2.0.0",
+    "expo": "^25.0.0",
     "husky": "^0.14.0",
     "jest": "^21.0.0",
     "lint-staged": "^6.0.0",
@@ -133,7 +139,7 @@
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
-    "semantic-release": "^8.0.0",
+    "semantic-release": "^14.0.0",
     "storybook-addon-intl": "^2.1.2",
     "storybook-addon-rtl": "^0.1.1",
     "ts-jest": "^22.0.0",
@@ -143,9 +149,8 @@
     "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {
-    "@blueeast/bluerain-os": "3.5.3",
+    "@blueeast/bluerain-os": "^3.6.0",
     "@expo/vector-icons": "^6.3.1",
-    "expo": "^25.0.0",
     "react": "16.2.0",
     "react-native": "0.44.0",
     "react-native-vector-icons": "^4.5.0"
