@@ -134,7 +134,7 @@
     "react-native-typescript-transformer": "^1.2.3",
     "replace-in-file": "^3.0.0-beta.2",
     "rimraf": "^2.6.1",
-    "semaawesomentic-release": "^14.0.0",
+    "semantic-release": "^14.0.0",
     "storybook-addon-intl": "^2.1.2",
     "storybook-addon-rtl": "^0.1.1",
     "ts-jest": "^22.0.0",
