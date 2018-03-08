@@ -1,4 +1,4 @@
-import { Plugin, BlueRainType } from '@blueeast/bluerain-os';
+import { BlueRainType, Plugin } from '@blueeast/bluerain-os';
 import Ionicons from '@expo/vector-icons';
 
 /**

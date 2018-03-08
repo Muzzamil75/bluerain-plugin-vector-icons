@@ -26,8 +26,8 @@
   "scripts": {
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
-    "build": "bluerain build plugin",
-    "start": "tsc",
+    "build": "rimraf dist && bluerain build plugin",
+    "start": "tsc -w",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:prod": "npm run lint && npm run test -- --coverage --no-cache",
@@ -99,7 +99,7 @@
   },
   "devDependencies": {
     "@blueeast/bluerain-cli": "^1.2.1",
-    "@blueeast/tslint-config-blueeast": "^0.4.0",
+    "@blueeast/tslint-config-blueeast": "^0.5.6",
     "@storybook/addon-actions": "^3.3.12",
     "@storybook/addon-graphql": "^3.2.0",
     "@storybook/addon-info": "^3.2.9",
