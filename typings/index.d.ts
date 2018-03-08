@@ -1,3 +1,4 @@
-declare module "react-native-vector-icons" {
-  
+declare module "*.ttf" {
+	const value: any;
+	export default value;
 }

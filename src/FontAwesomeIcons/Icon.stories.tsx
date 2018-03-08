@@ -3,6 +3,7 @@ import { BlueRain } from '@blueeast/bluerain-os';
 
 // import { action } from '@storybook/addon-actions';
 // import SiteGeneralSettings from './SiteGeneralSettings.Component';
+// import storiesOf, { bluerainStory } from '@blueeast/bluerain-storybook-addon';
 import { bluerainStory } from '../../storybook/bluerain';
 
 
@@ -14,6 +15,7 @@ storiesOf('VectorIcon ', module)
 
 .add('full VectorIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
+	console.log('BR', BR)
 	return (
 		<BR.Components.Icon name="rocket" size={30} color="#900" />
 	);

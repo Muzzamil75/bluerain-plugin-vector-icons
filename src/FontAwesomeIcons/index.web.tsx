@@ -1,11 +1,13 @@
 
 import VectorFontAwesome from  './bluerain-plugin-vector-iconsFontAwesome-web';
-export {VectorFontAwesome};
+export default VectorFontAwesome;
 
 
 
+// import iconFont from 'react-native-vector-icons/Fonts/FontAwesome.ttf';
+const iconFont = require('react-native-vector-icons/Fonts/FontAwesome.ttf');
 const iconFontStyles = `@font-face {
-  src: url( 'react-native-vector-icons/Fonts/FontAwesome.ttf');
+  src: url(${iconFont});
   font-family: FontAwesome;
 }`;
 

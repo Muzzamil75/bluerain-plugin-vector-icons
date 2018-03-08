@@ -4,45 +4,39 @@ const path =require('path');
 const appDirectory = path.resolve(__dirname, '../');
 
 module.exports = (config, env) => {
-	
- config.module.rules.push({
-	
-	test: /\.(js)$/,
-	 // Add every directory that needs to be compiled by Babel during the build.
-	 include: [
-		path.resolve(appDirectory, 'node_modules/react-native-vecto-icons/lib/create-icon-set'),
-		 path.resolve(appDirectory, 'node_modules/react-native-vecto-icons'),
-		path.resolve(appDirectory, 'node_modules/react-native-vecto-icons'),
-	//	path.resolve(appDirectory, 'src'),
-  ],
-	  use: {
-		loader: 'babel-loader',
-		options: {
-			cacheDirectory: true,
-			// Babel configuration (or use .babelrc)
-			// This aliases 'react-native' to 'react-native-web' and includes only
-			// the modules needed by the app.
-			plugins: ['react-native-web'],
-			//How to add loader in module of webpack The 'react-native' preset is recommended to match React Native's packager
-			presets: ['react-native']
-		}
+
+	// Set up react-native alias
+	// This should be done by default in webpack of bluerain-cli
+	if (!config.resolve.alias) {
+		config.resolve.alias = {};
 	}
-  });
-	
-	config.module.rules.push(
-		{
-			test: /\.ttf$/,
-			loader: "url-loader", // or directly file-loader
-			include: path.resolve(__dirname, "node_modules/react-native-vector-icons"),
-		});
+
+	config.resolve.alias['react-native'] = 'react-native-web';
+
+	// Recognize font files
+	config.module.rules.push({
+		test: /\.ttf$/,
+		loader: "url-loader", // or directly file-loader
+		include: path.resolve(appDirectory, "node_modules/react-native-vector-icons"),
+	});
+
+
+	// Typescript support
 	config.module.rules.push({
 		test: /\.(ts|tsx)$/,
 		loader: require.resolve('awesome-typescript-loader')
 	});
-	console.log("Config",config.module.rules);
-	
-	config.resolve.alias={  'react-native': 'react-native-web'}
-	config.resolve.extensions.push('.web.js', '.ts', '.tsx','.js','.ttf','.jsx');
+
+	// config.resolve.extensions.push('.web.js', '.ts', '.tsx', '.js', '.ttf', '.jsx');
+	config.resolve.extensions.push('.ts', '.tsx');
+
+
+	// Following in not needed, leaving it here just for reference
+
+	// const babelLoader = config.module.rules[0];
+	// babelLoader.include.push(path.resolve(appDirectory, 'node_modules/react-native-vector-icons/lib'));
+	// babelLoader.query.plugins.push('react-native-web');
+	// babelLoader.query.presets.push('react-native');
 
 	return config;
 };

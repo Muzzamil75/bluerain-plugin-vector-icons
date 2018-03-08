@@ -1,6 +1,6 @@
 
 import VectorMaterialIcons from  './bluerain-plugin-vector-icon-MaterialIcon-web';
-export {VectorMaterialIcons};
+export { VectorMaterialIcons };
 
 
 // import Icon from 'react-native-vector-icons/dist/MaterialIcons';
