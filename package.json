@@ -73,6 +73,13 @@
     }
   },
   "jest": {
+    "moduleNameMapper": {
+      "react-native": "<rootDir>/node_modules/react-native-web"
+    },
+    "snapshotSerializers": [
+     
+      "react-native-web/jest/serializer"
+    ],
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
