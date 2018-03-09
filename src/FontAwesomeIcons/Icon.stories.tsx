@@ -15,7 +15,6 @@ storiesOf('VectorIcon ', module)
 
 .add('full VectorIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
-	console.log('BR', BR)
 	return (
 		<BR.Components.Icon name="rocket" size={30} color="#900" />
 	);

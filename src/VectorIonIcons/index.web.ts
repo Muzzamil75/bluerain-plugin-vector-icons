@@ -2,7 +2,6 @@ import VectorIonicons from './bluerain-plugin-vector-Ionicons-web';
 export { VectorIonicons };
 
 // import Icon from 'react-native-vector-icons/dist/Ionicons';
-
 // Generate required css
 // import iconFont from 'react-native-vector-icons/Fonts/Ionicons.ttf';
 const iconFontStyles = `@font-face {

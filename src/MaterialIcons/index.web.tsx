@@ -1,10 +1,8 @@
-
 import VectorMaterialIcons from  './bluerain-plugin-vector-icon-MaterialIcon-web';
 export { VectorMaterialIcons };
 
 
 // import Icon from 'react-native-vector-icons/dist/MaterialIcons';
-
 // Generate required css
 // import iconFont from 'react-native-vector-icons/Fonts/MaterialIcons.ttf';
 const iconFontStyles = `@font-face {

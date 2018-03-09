@@ -1,7 +1,7 @@
 {
 	"expo": {
-		"name": "BlueRain Plugin User Management",
-		"slug": "bluerain-plugin-user-management",
+		"name": "BlueRain Plugin Vector-Icon",
+		"slug": "bluerain-plugin-Vector-Icon",
 		"sdkVersion": "25.0.0",
 		"platforms": [
 			"ios",

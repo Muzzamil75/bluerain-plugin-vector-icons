@@ -3,16 +3,21 @@
   "version": "0.0.0",
   "description": "",
   "keywords": [],
-  "main": "dist/bluerain-plugin-vector-icons.umd.js",
-  "module": "dist/bluerain-plugin-vector-icons.es5.js",
-  "typings": "dist/types/bluerain-plugin-vector-icons.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
   "author": "BlueEast Team <code@blueeast.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/BlueEastCode/bluerain-plugin-vector-icons.git"
+  },
+  "release": {
+    "branch": "master",
+    "dryRun": false,
+    "debug": true
   },
   "license": "MIT",
   "engines": {
@@ -21,7 +26,7 @@
   "scripts": {
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
-    "build": "tsc && babel -D compiled --out-dir dist  && rimraf compiled",
+    "build": "rimraf dist && bluerain build plugin",
     "start": "tsc -w",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -85,7 +90,7 @@
       "global": {
         "branches": 50,
         "functions": 100,
-        "lines": 92,
+        "lines": 91,
         "statements": 92
       }
     },
