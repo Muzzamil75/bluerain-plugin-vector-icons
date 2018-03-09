@@ -253,6 +253,14 @@
     react "^16.2.0"
     react-redux "^5.0.7"
 
+"@blueeast/bluerain-storybook-addon@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@blueeast/bluerain-storybook-addon/-/bluerain-storybook-addon-0.1.0.tgz#dcd5e3f6a45381a3801729d3d314b64d9c35ba07"
+  dependencies:
+    "@blueeast/bluerain-cli" "^1.1.0"
+    "@blueeast/bluerain-os" "^3.4.1"
+    "@storybook/react" "^3.3.13"
+
 "@blueeast/bluerain-ui-interfaces@^1.0.2":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@blueeast/bluerain-ui-interfaces/-/bluerain-ui-interfaces-1.0.5.tgz#98c26a168062799e8a8d5d2b9e4ad5eebcf144a5"
@@ -2954,14 +2962,6 @@ bluebird@^2.10.2:
 bluebird@^3.1.1, bluebird@^3.4.7, bluebird@^3.5.0, bluebird@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
-
-bluerain-storybook-addon@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/bluerain-storybook-addon/-/bluerain-storybook-addon-1.0.0.tgz#cb44e30de10fafe2572b252c500cc5febc590e7e"
-  dependencies:
-    "@blueeast/bluerain-cli" "^1.1.0"
-    "@blueeast/bluerain-os" "^3.4.1"
-    "@storybook/react" "^3.3.13"
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
   version "4.11.8"

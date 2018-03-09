@@ -11,7 +11,6 @@ module.exports = {
 		require('@blueeast/bluerain-plugin-react-router'),
 		require('@blueeast/bluerain-plugin-redux'),
 		require('@blueeast/bluerain-plugin-responsive-components'),
-		require('./src/FontAwesomeIcons/index.web'),
 		// All bluerain plugins will be added here
 	],
 	config: {
