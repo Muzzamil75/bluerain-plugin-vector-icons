@@ -11,7 +11,7 @@ class VectorIconsFontAwesome extends Plugin {
 	static slug = 'vector-icons-font-awesome';
 
 	static components = {
-		Icon: Icon
+		FontAwesomeIcon: Icon
 	};
 }
 export default VectorIconsFontAwesome;

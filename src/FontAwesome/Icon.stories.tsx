@@ -14,6 +14,6 @@ storiesOf('Font Awesome ', module)
 .add('full VectorIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
 	return (
-		<BR.Components.Icon name="rocket" size={30} color="#900" />
+ 		<BR.Components.FontAwesomeIcon name="rocket" size={30} color="#900" />
 	);
 }));
