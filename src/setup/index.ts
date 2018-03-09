@@ -1,7 +1,7 @@
-export const setup = iconPath => {
+export const setup = (iconPath, fontName) => {
 	const iconFontStyles = `@font-face {
 		src: url(${iconPath});
-		font-family: FontAwesome;
+		font-family: ${fontName};
 	}`;
 
 	// Create stylesheet

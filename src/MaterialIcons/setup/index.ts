@@ -1,3 +1,3 @@
 import { setup as genericSetup } from '../../setup';
-
-genericSetup(require('react-native-vector-icons/Fonts/MaterialIcons.ttf'));
+const font = require('react-native-vector-icons/Fonts/MaterialIcons.ttf');
+genericSetup(font, 'MaterialIcons');
