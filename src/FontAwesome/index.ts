@@ -6,7 +6,7 @@ import './setup';
  * @property {string} pluginName "VectorIconsFontAwesome"
  * @property {string} slug "vector-icons-font-awesome"
  */
-class VectorFontAwesome extends Plugin {
+class VectorIconsFontAwesome extends Plugin {
 	static pluginName = 'VectorIconsFontAwesome';
 	static slug = 'vector-icons-font-awesome';
 
@@ -14,4 +14,4 @@ class VectorFontAwesome extends Plugin {
 		Icon: Icon
 	};
 }
-export default VectorFontAwesome;
+export default VectorIconsFontAwesome;
