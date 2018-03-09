@@ -1,1 +1,1 @@
-export const setup = iconPath => {};
+export const setup = iconPath => '';
