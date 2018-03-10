@@ -8,12 +8,12 @@ const BRConfigs = require('../../bluerain');
 BRConfigs.plugins.push(require('./index'));
 
 
-storiesOf('Font Awesome ', module)
+storiesOf('IonIcons ', module)
 
 .addDecorator(BlueRainDecorator(BRConfigs))
-.add('full VectorIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
+.add('full IonIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
 	return (
- 		<BR.Components.Icon name="rocket" size={30} color="#900" />
+		<BR.Components.Icon name="md-checkmark-circle"size={32} color="green" />
 	);
 }));

@@ -14,6 +14,6 @@ storiesOf(' MaterialIcons ', module)
 .add('full MaterialIcons story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
 	return (
-		<BR.Components.MaterialIcon name="delete" size={100}  color="green" />
+		<BR.Components.Icon name="delete" size={100}  color="green" />
 	);
 }));

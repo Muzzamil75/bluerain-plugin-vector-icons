@@ -8,12 +8,12 @@ const BRConfigs = require('../../bluerain');
 BRConfigs.plugins.push(require('./index'));
 
 
-storiesOf('Font Awesome ', module)
+storiesOf('Entypo ', module)
 
 .addDecorator(BlueRainDecorator(BRConfigs))
-.add('full VectorIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
+.add('full EntypoIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
 	return (
- 		<BR.Components.Icon name="rocket" size={30} color="#900" />
+ 		<BR.Components.Icon name="facebook" size={30} color="blue" />
 	);
 }));

@@ -11,7 +11,7 @@ class VectorIconsMaterialIcons extends Plugin {
 	static slug = 'vector-icons-material-icons';
 
 	static components = {
-		MaterialIcon: Icon
+		Icon: Icon
 	};
 }
 export default VectorIconsMaterialIcons;
