@@ -8,12 +8,14 @@ module.exports = {
 		// All bluerain apps will also be added in this array
 	],
 	plugins:[
+		require('@blueeast/bluerain-plugin-react-router'),
+		require('@blueeast/bluerain-plugin-redux'),
+		require('@blueeast/bluerain-plugin-responsive-components'),
 		// All bluerain plugins will be added here
-		 require('./dist/src/index'),
 	],
 	config: {
 		// Configurations for bluerain-os will be added here
-		title: 'Bluerain OS',
+		title: 'Bluerain OSindex',
 
 		// wallpaper: {
 		// 	backgroundColor: 'red',
