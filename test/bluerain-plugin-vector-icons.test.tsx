@@ -1,5 +1,5 @@
 import React from 'react';
-import { VectorFontAwesome, VectorIonicons, VectorMaterialIcons } from '../src/index';
+import VectorIconsFontAwesome from '../src/FontAwesome';
 import BR, {BlueRain, Plugin } from '@blueeast/bluerain-os';
 import ReactXPPlugin from './Platform';
 beforeAll(() => {
@@ -7,7 +7,7 @@ beforeAll(() => {
 });
 describe('VectorIcons Plugin test', () => {
 	it('It should register Plugin', () => {
-    	BR.boot({ platform:[ReactXPPlugin],plugins:[VectorFontAwesome,VectorIonicons,VectorMaterialIcons] });
+    	BR.boot({ platform:[ReactXPPlugin],plugins:[VectorIconsFontAwesome] });
 
 	});
 });

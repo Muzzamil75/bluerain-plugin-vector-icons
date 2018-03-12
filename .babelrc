@@ -1,1 +1,4 @@
-{"extends":"@blueeast/bluerain-cli/src/plugin/.babelrc"}
+{
+  "presets": [ "react", "env", "stage-0"],
+  "plugins": ["babel-plugin-react-native-web"]
+}
