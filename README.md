@@ -1,7 +1,5 @@
 ![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)
 
-[![Travis](https://img.shields.io/travis/oblador/react-native-vector-icons.svg)](https://travis-ci.org/oblador/react-native-vector-icons) [![npm](https://img.shields.io/npm/v/react-native-vector-icons.svg)](https://npmjs.com/package/react-native-vector-icons) [![npm](https://img.shields.io/npm/dm/react-native-vector-icons.svg)](https://npmjs.com/package/react-native-vector-icons) [![Issue Stats](https://img.shields.io/issuestats/i/github/oblador/react-native-vector-icons.svg)](http://github.com/oblador/react-native-vector-icons/issues)
-
 # bluerain-plugin-vector-icons
 Customizable Icons for BlueRain Apps with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
 
