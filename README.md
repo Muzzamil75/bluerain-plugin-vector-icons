@@ -21,6 +21,16 @@ BR.boot({
 })
 ```
 
+## Bundled Icon Sets
+
+[Browse all](https://oblador.github.io/react-native-vector-icons/).
+
+* [`Entypo`](http://entypo.com) by Daniel Bruce (**411** icons) 
+* [`FontAwesome`](http://fortawesome.github.io/Font-Awesome/icons/) by Dave Gandy (v4.7.0, **675** icons) 
+* [`Ionicons`](http://ionicframework.com/docs/v2/ionicons/) by Ben Sperry (v3.0.0, **859** icons)
+* [`MaterialIcons`](https://www.google.com/design/icons/) by Google, Inc. (v3.0.1, **932** icons)
+* [`MaterialCommunityIcons`](https://materialdesignicons.com/) by MaterialDesignIcons.com (v2.1.19, **2120** icons)
+
 ## Webpack
 
 	
