@@ -1,4 +1,4 @@
-const webpackConfigs = require('../dist').webpackConfigs;
+const webpackConfigs = require('../webpack');
 
 module.exports = (config, env) => {
 
