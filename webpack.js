@@ -19,7 +19,7 @@ module.exports = (config, env) => {
 	// Recognize font files
 	config.module.rules.push({
 		test: /\.ttf$/,
-		loader: 'url-loader', // or directly file-loader
+		loader: path.resolve(appDirectory, 'node_modules/url-loader'), // or directly file-loader
 		include: path.resolve(appDirectory, 'node_modules/react-native-vector-icons')
 	});
 
