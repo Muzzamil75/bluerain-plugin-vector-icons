@@ -1,8 +1,8 @@
 // load the default config generator.
 const path = require('path');
-const appDirectory = path.resolve(__dirname, '../../');
+const appDirectory = path.resolve(__dirname);
 
-export default (config, env) => {
+module.exports = (config, env) => {
 	// Set up react-native alias
 	// This should be done by default in webpack of bluerain-cli
 	if (!config.resolve.alias) {
