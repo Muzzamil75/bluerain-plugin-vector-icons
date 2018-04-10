@@ -104,7 +104,7 @@
     "mapCoverage": true
   },
   "devDependencies": {
-    "@blueeast/bluerain-os": "^3.12.0",
+    "@blueeast/bluerain-os": "3.7.1",
     "@blueeast/bluerain-platform-reactxp": "^3.0.3",
     "@blueeast/bluerain-plugin-react-router": "^1.1.1",
     "@blueeast/bluerain-plugin-redux": "^0.6.2",
