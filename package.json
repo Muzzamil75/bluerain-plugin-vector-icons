@@ -159,13 +159,13 @@
     "tslint": "^5.4.3",
     "typedoc": "^0.11.1",
     "typescript": "^2.7.2",
-    "url-loader": "^1.0.1",
     "validate-commit-msg": "^2.12.2"
   },
   "dependencies": {
     "@expo/vector-icons": "^6.3.1",
     "react-native-vector-icons": "^4.5.0",
-    "react-native-web": "^0.5.1"
+    "react-native-web": "^0.5.1",
+		"url-loader": "^1.0.1"
   },
   "peerDependencies": {
     "@blueeast/bluerain-os": "^3.x",
