@@ -1,11 +1,11 @@
-# :electric_plug: bluerain plugin vector icon 
+#  bluerain plugin vector icon 
 
 Customizable Icons for BlueRain Apps with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
 
 
-| 🌏 Web | 🖥 Electron | 📱 React Native |
-| :---: | :--------: | :------------: |
-|   :heavy_check_mark:   |     :heavy_check_mark:      |     :heavy_multiplication_x:     |
+| 🌏 Web             | 🖥 Electron        | 📱 React Native    |
+| :----------------: | :----------------: | :----------------: |
+| ✔️ |   ✔️ | ✖️  |
 
 
 ### Screenshots
