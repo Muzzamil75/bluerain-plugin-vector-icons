@@ -1,6 +1,6 @@
 # bluerain plugin vector icon
 
-Customizable Icons for BlueRain Apps with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
+Customizable Icons for BlueRain Apps from  [react-native-vector-icons](https://oblador.github.io/react-native-vector-icons/) with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.
 
 | 🌏 Web             | 🖥 Electron        | 📱 React Native    |
 | :----------------: | :----------------: | :----------------: |

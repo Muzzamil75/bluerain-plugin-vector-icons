@@ -14,6 +14,8 @@ storiesOf('Entypo ', module)
 .add('full EntypoIcon story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
 	return (
- 		<BR.Components.Icon name="facebook" size={30} color="blue" />
+		<BR.Components.Card style={{ alignItems:'center',display:'flex',justifyContent:'center',height:100,width:200}}>
+		<BR.Components.Icon name="facebook" size={30} color="blue" />
+	</BR.Components.Card>
 	);
 }));
