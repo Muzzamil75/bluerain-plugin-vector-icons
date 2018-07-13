@@ -72,7 +72,6 @@ import BR from '@blueeast/bluerain-os';
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorIconsIonicons"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "vector-icons-Ionicons"
 
-
 ### VectorMaterialCommunityIcons
 
 ### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)    **
