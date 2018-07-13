@@ -59,36 +59,36 @@ import BR from '@blueeast/bluerain-os';
 
 ### VectorIconsEntypo
 
-### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)  **
+### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)**
 
-#### **Properties    **
+#### **Properties**
 
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**  "VectorIconsEntypo"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "vector-icons-Entypo"
 
 ### VectorIconsIonicons
 
-### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)   **
+### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)**
 
-#### **Properties  **
+#### **Properties**
 
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorIconsIonicons"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "vector-icons-Ionicons"
 
 ### VectorMaterialCommunityIcons
 
-### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)    **
+### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)**
 
-#### **Properties   **
+#### **Properties**
 
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorMaterialCommunityIcons"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**  "vector-materialCommunity-icons"
 
 ### VectorIconsMaterialIcons
 
-### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)     **
+### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)**
 
-#### **Properties     **
+#### **Properties**
 
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorIconsMaterialIcons"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**  "vector-icons-material-icons"
