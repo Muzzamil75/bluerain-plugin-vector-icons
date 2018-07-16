@@ -4,7 +4,7 @@ Customizable Icons for BlueRain Apps from  [react-native-vector-icons](https://o
 
 | 🌏 Web             | 🖥 Electron        | 📱 React Native    |
 | :----------------: | :----------------: | :----------------: |
-| ✔️ |   ✔️ | ✖️  |
+| ✔️ |   ✔️ | TBD |
 
 ## Screenshots
 
@@ -40,6 +40,7 @@ import BR from '@blueeast/bluerain-os';
 
 <BR.Components.Icon name="airplane" size={30} color="blue" />
 ```
+### [Demo](https://BlueEastCode.github.io/bluerain-plugin-vector-icons/)
 
 ## API
 
