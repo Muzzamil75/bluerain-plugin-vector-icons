@@ -1,9 +1,9 @@
 
-![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)
+ ![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)
 
 #  bluerain plugin vector icon
 
-Customizable Icons for BlueRain Apps from  [react-native-vector-icons](https://oblador.github.io/react-native-vector-icons/) with support for NavBar/TabBar/ToolbarAndroid, image source and full styling.**[https://blueeast.gitbook.io/bluerain-plugin-vector-icons](https://blueeast.gitbook.io/bluerain-plugin-vector-icons)**
+Customizable Icons for BlueRain Apps from  [react-native-vector-icons](https://oblador.github.io/react-native-vector-icons/) with support for NavBar/TabBar/ToolbarAndroid, image source and full styling. **[https://blueeast.gitbook.io/bluerain-plugin-vector-icons](https://blueeast.gitbook.io/bluerain-plugin-vector-icons)**
 
 | 🌏 Web             | 🖥 Electron        | 📱 React Native    |
 | :----------------: | :----------------: | :----------------: |
