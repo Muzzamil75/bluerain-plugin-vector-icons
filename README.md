@@ -1,8 +1,6 @@
+# bluerain plugin vector icon
 
  ![Vector Icons for React Native](https://cloud.githubusercontent.com/assets/378279/12009887/33f4ae1c-ac8d-11e5-8666-7a87458753ee.png)
-
-#  bluerain plugin vector icon
-
 Customizable Icons for BlueRain Apps from  [react-native-vector-icons](https://oblador.github.io/react-native-vector-icons/) with support for NavBar/TabBar/ToolbarAndroid, image source and full styling. **[bluerain-plugin-vector-icons](https://blueeast.gitbook.io/bluerain-plugin-vector-icons)**
 
 | 🌏 Web             | 🖥 Electron        | 📱 React Native    |
@@ -44,7 +42,6 @@ import BR from '@blueeast/bluerain-os';
 <BR.Components.Icon name="airplane" size={30} color="blue" />
 ```
 
-
 ### [Demo](https://BlueEastCode.github.io/bluerain-plugin-vector-icons/)
 
 ## API
@@ -60,8 +57,6 @@ import BR from '@blueeast/bluerain-os';
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorIconsFontAwesome"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "vector-icons-font-awesome"
 
-
-
 ### VectorIconsEntypo
 
 ### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)**
@@ -70,8 +65,6 @@ import BR from '@blueeast/bluerain-os';
 
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**  "VectorIconsEntypo"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "vector-icons-Entypo"
-
-
 
 ### VectorIconsIonicons
 
@@ -82,8 +75,6 @@ import BR from '@blueeast/bluerain-os';
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorIconsIonicons"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "vector-icons-Ionicons"
 
-
-
 ### VectorMaterialCommunityIcons
 
 ### **Extends [Plugin](https://blueeast.gitbook.io/bluerain-os/api/api-reference#plugin)**
@@ -92,8 +83,6 @@ import BR from '@blueeast/bluerain-os';
 
 - `pluginName` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** "VectorMaterialCommunityIcons"
 - `slug` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)**  "vector-materialCommunity-icons"
-
-
 
 ### VectorIconsMaterialIcons
 
