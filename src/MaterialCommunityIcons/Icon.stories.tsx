@@ -14,6 +14,8 @@ storiesOf('MaterialCommunityicons', module)
 .add('full vector-materialCommunity-icons story', bluerainStory(({ bluerain: BR }: { bluerain: BlueRain }) => {
 
 	return (
- 		<BR.Components.Icon name="airplane" size={30} color="blue" />
+		<BR.Components.Card style={{height:100,width:200,justifyContent:'space-between',alignItems:'center'}}>
+		<BR.Components.Icon name="airplane" size={30} color="blue" />
+	</BR.Components.Card>
 	);
 }));
